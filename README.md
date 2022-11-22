@@ -52,3 +52,62 @@ curl -i -X GET http://localhost:3000/api/hello
 
 -   Caso contrário, você pode fazer uma requisição acessando, no seu navegador, a seguinte URL: `http://localhost:3000/api/hello`.
 
+
+## Tarefa Prática #1: Testando a API
+
+Nesta primeira tarefa, você irá testar as funcionalidade da API criada.
+
+#### Passo 1
+
+Primeiro, você deve instalar o software **Postman**, que será utilizado para chamadas às operações da API REST.
+As instruções de instalação estão nesta [página](https://www.postman.com/downloads/)
+
+#### Passo 2
+
+Vamos agora fazer uma chamada para adicionar um aluno ao Diário de Classe.
+Esta funcionalidade está exposta via API por meio de um serviço POST no seguinte endpoint:
+
+```
+localhost:3000/api/post
+```
+
+A operação exige que os dados sejam passados no formato JSON, no campo Body da chamada.
+Crie um JSON contendo as informações de "name" e "age" conforme a imagem a seguir:
+
+Clique em `send`para fazer a requisição.
+
+#### Passo 3
+
+Observe o resultado. Ele deve ter o código 200 (OK).
+
+#### Passo 4
+
+Agora vamos fazer uma chamada para identificar todos os alunos que fazem parte do Diário de Classe.
+
+Esta funcionalidade está exposta via API por meio de um serviço GET no seguinte endpoint:
+
+```
+localhost:3000/api/getAll
+```
+
+Nesta chamada, não é necessário enviar nenhum dado. É apenas uma chamada "GET".
+Clique em `send`para fazer a requisição.
+
+#### Passo 5
+
+Observe o resultado. Ele deve ter o código 200 (OK), bem como todos os alunos do Diário de Classe.
+
+## Tarefa Prática #3: Explorando demais funcionalidades da API
+
+A API REST construída possui as seguintes operações:
+POST
+GET
+DEL
+PATCH
+
+#### Passo 1
+
+Realize uma chamada para cada operação.
+
+
+## Tarefa Prática #4: Adicionando uma nova informação no Diário de Classe
