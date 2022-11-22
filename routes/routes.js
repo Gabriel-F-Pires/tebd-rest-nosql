@@ -7,6 +7,17 @@ const router = express.Router()
 module.exports = router;
 
 
+//Get hello method
+router.get('/hello', async (req, res) => {
+    try{
+        const data = await Model.find();
+        res.send(`Hello world! Bem-vindo(a) ao seu Diario de Classe!`)
+    }
+    catch(error){
+        res.status(500).json({message: error.message})
+    }
+})
+
 router.post('/post', async (req, res) => {
     const data = new Model({
         name: req.body.name,
