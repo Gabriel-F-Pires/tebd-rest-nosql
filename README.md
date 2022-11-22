@@ -1,4 +1,5 @@
-# Diário-de-Classe: Exemplo prático de criação de uma API REST que utiliza um banco de dados NoSQL
+# Diário-de-Classe 
+## Exemplo prático de criação de uma API REST que utiliza um banco de dados NoSQL
 
 Este repositório contém um exemplo simples de um sistema de Diário de Classe construído usando **o banco de dados NoSQL MongoDB**.
 
