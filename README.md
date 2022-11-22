@@ -22,17 +22,18 @@ git clone https://github.com/<SEU USUÁRIO>/tebd-rest-nosql.git
 
 4. Por fim, é necessário ter o banco de dados **MongoDB** configurado. Se você não tem, siga as instruções para instalação contidas nessa [página](https://github.com/fabsfernandes/tebd-rest-nosql/blob/main/MONGODB-INSTALACAO.md)
 
-5. Em um terminal, vá para o diretório no qual o projeto foi clonado e instale as dependências necessárias para execução do sistema:
+
+5. Abra o arquivo `.env` e adicione a string de conexão correspondente ao seu cluster MongoDB. A string final irá parecer com algo como:
+
+```
+mongodb+srv://******:*****@cluster0.scd8qwp.mongodb.net/test
+```
+
+6. Em um terminal, vá para o diretório no qual o projeto foi clonado e instale as dependências necessárias para execução do sistema:
 
 ```
 cd tebd-rest-nosql
 npm install
-```
-
-6. Abra o arquivo `.env` e adicione a string de conexão correspondente ao seu cluster MongoDB. A string final irá parecer com algo como:
-
-```
-mongodb+srv://******:*****@cluster0.scd8qwp.mongodb.net/test
 ```
 
 7. Inicie o sistema através do comando:
