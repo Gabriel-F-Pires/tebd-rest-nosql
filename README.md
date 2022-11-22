@@ -97,7 +97,7 @@ Clique em `send`para fazer a requisição.
 
 Observe o resultado. Ele deve ter o código 200 (OK), bem como todos os alunos do Diário de Classe.
 
-## Tarefa Prática #3: Explorando demais funcionalidades da API
+## Tarefa Prática #2: Explorando demais funcionalidades da API
 
 A API REST construída possui as seguintes operações:
 POST
@@ -110,4 +110,6 @@ PATCH
 Realize uma chamada para cada operação.
 
 
-## Tarefa Prática #4: Adicionando uma nova informação no Diário de Classe
+## Tarefa Prática #3: Adicionando uma nova informação no Diário de Classe
+
+Adicione o campo `nota` aos documentos do seu banco de dados.
