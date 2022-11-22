@@ -74,6 +74,10 @@ localhost:3000/api/post
 A operação exige que os dados sejam passados no formato JSON, no campo Body da chamada.
 Crie um JSON contendo as informações de "name" e "age" conforme a imagem a seguir:
 
+<p align="center">
+    <img width="70%" src="https://github.com/fabsfernandes/tebd-rest-nosql/blob/main/Screen%20Shot%202022-11-22%20at%2000.27.27.png" />
+</p>
+
 Clique em `send`para fazer a requisição.
 
 #### Passo 3
