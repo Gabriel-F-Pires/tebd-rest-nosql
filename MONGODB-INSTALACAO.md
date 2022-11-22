@@ -11,3 +11,4 @@
 9. Clique em "Connect your application"
 10. Selecione o driver desejado (Node.js) e a versão correspondente que você instalou
 11. Copie a string de conexão
+12. Retorne ao passo 5. da execução do sistema Diario de Classe [aqui]()
