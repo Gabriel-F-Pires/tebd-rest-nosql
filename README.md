@@ -20,7 +20,7 @@ git clone https://github.com/<SEU USUÁRIO>/tebd-rest-nosql.git
 
 3. É também necessário ter o Node.js instalado na sua máquina. Se você não tem, siga as instruções para instalação contidas nessa [página](https://nodejs.org/en/download/).
 
-4. Por fim, é necessário ter o banco de dados MongoDB configurado. Se você não tem, siga as instruções para instalação contidas nessa [página] (https://github.com/fabsfernandes/tebd-rest-nosql/MONGODB-INSTALACAO.md)
+4. Por fim, é necessário ter o banco de dados MongoDB configurado. Se você não tem, siga as instruções para instalação contidas nessa [página](https://github.com/fabsfernandes/tebd-rest-nosql/blob/main/MONGODB-INSTALACAO.md)
 
 5. Em um terminal, vá para o diretório no qual o projeto foi clonado e instale as dependências necessárias para execução do sistema:
 
